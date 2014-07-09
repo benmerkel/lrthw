@@ -4,8 +4,8 @@ x = "There are #{10} types of people."
 binary = 'binary'
 # sets the variable named do_not equal to the string with the word "don't" in it
 do_not = "don't"
-#s sets the variable y equal to the string with some interpolation in it.
-y = "Those who know #{binary} and those who #{do_not}." # string in string 1 and 2
+# sets the variable y equal to the string with some interpolation in it.
+y = "Those who know #{binary} and those who #{do_not}."
 
 # outputs the variable x
 puts x
