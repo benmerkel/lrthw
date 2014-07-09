@@ -29,3 +29,4 @@ puts end1 + end2 + end3 + end4 + end5 + end6
 puts end7 + end8 + end9 + end10 + end11 + end12
 
 # this just is polite use of the terminal, try removing it
+puts
