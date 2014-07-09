@@ -21,7 +21,7 @@ puts "Actually that's not too heavy."
 # adds two formatted strings for the variables <eyes> and <hair>
 puts "He's got %s eyes and %s hair" % [eyes, hair]
 # adds a formatted string of the variable <name>
-puts "His teeth are usually %s depending on the coffee." % teeth
+puts 'His teeth are usually %s depending on the coffee.' % teeth
 
 # this line is tricky, try to get it exactly right
-puts "If I add %d, %d, and %d I get %d." % [age, height, weight, age + height + weight]
+puts 'If I add %d, %d, and %d I get %d.' % [age, height, weight, age + height + weight]
