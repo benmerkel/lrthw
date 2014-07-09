@@ -1,7 +1,7 @@
 # sets x equal to the string
 x = "There are #{10} types of people."
 # sets the variable named binary equal to the string with the word binary in it
-binary = "binary"
+binary = 'binary'
 # sets the variable named do_not equal to the string with the word "don't" in it
 do_not = "don't"
 #s sets the variable y equal to the string with some interpolation in it.
@@ -27,9 +27,9 @@ joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 puts joke_evaluation
 
 # sets the variable equal to the string
-w = "This is tha left side of..."
+w = 'This is tha left side of...'
 # sets the variable equal to the string
-e = "a string with a right side."
+e = 'a string with a right side.'
 
 # outputs the two string above right next to each other
 puts w + e
