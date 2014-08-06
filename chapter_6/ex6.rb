@@ -1,10 +1,13 @@
+# sets the number of people
+types_of_people = 10
 # sets x equal to the string
-x = "There are #{10} types of people."
+x = "There are #{types_of_people} types of people."
 # sets the variable named binary equal to the string with the word binary in it
 binary = 'binary'
 # sets the variable named do_not equal to the string with the word "don't" in it
 do_not = "don't"
 # sets the variable y equal to the string with some interpolation in it.
+# string in a string #1 and #2
 y = "Those who know #{binary} and those who #{do_not}."
 
 # outputs the variable x
