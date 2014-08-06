@@ -13,7 +13,9 @@ A. Puts adds a new line after it outputs, print does not.
 
 Q) What happened when you removed the last line of the program?
 A. Removing the last line of the program (a puts) just removes a
-   blank line of output
+   blank line of output.
+   CORRECTION: 'puts' puts your terminal cursor on a new line after
+   it outputs.
 
 Guard Fixes:
 The only issue is when using formatted strings, not sure how to 
