@@ -20,3 +20,6 @@ A. Removing the last line of the program (a puts) just removes a
 Guard Fixes:
 The only issue is when using formatted strings, not sure how to 
 fix this.
+UPDATE: After a google search, I fixed the rubocop offense.
+Line4(old): puts 'Its fleece was white as %s' % 'snow'
+Line4(new): puts format('Its fleece was white as %s.', 'snow')

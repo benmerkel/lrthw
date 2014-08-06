@@ -1,7 +1,7 @@
 # outputs a string
 puts 'Mary had a little lamb.'
 # outputs the string with some string formatting
-puts 'Its fleece was white as %s.' % 'snow'
+puts format('Its fleece was white as %s.', 'snow')
 # outputs the string
 puts 'And everywhere that Mary went.'
 # This outputs 10 periods in a row
